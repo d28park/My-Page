@@ -1,1 +1,1 @@
-# My-Page
+# All assets for personal projects website.

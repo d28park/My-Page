@@ -1,0 +1,95 @@
+/* Styling for navigation bar*/
+nav {
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	background-color: #555;
+	background: -webkit-linear-gradient(#ccc, #555);
+	background: -o-linear-gradient(#ccc, #555);
+	background: -moz-linear-gradient(#ccc, #555);
+	background: linear-gradient(#ccc, #555);
+	z-index: 1;
+}
+ul {
+	text-align: center;
+}
+ul li {
+	display: inline;
+	padding: 10px 0 10px 0;
+	margin-left: -5px;
+	border-left: 1px solid #686868;
+	font-weight: bold;
+}
+a li {
+	padding: 10px 50px 10px 50px;
+}
+/*End of navigation bar styling*/
+
+a {
+	text-decoration: none;
+	color: black;
+}
+html {
+	font-family: sans-serif;
+	font-family: Helvetica;
+	background-color: #ccc;
+}
+p {
+	color: #000;
+	margin: -1px 0 -1px 0;
+	font-size: 20px;
+}
+h1 {
+	color: #000;
+	margin: 5px 0 10px 0;
+}
+ol li {
+	font-size: 20px;
+}
+ol {
+	margin-left: 20px;
+}
+footer {
+	clear: both;
+}
+
+#profile img {
+	width: auto;
+	max-height: 300px;		
+	margin: 0 auto;
+	margin-top: 60px;
+
+}
+#banner {
+	height: 500px;
+	margin: 0 -8px 0 -8px;
+	background-image: url("header_stock.jpg");
+	background-color: #fff;
+	background-size: cover;
+	text-align: center;
+	float: bottom;
+}
+#about {
+	margin: 30px 0 0 30px;
+	width: 900px;
+	height: 380px;
+	float: left;
+	background-color: grey;
+}
+#bullets {
+	margin: 30px 30px 0 0;
+	width: 350px;
+	height: 250px;
+	float: right;
+	background-color: #000
+}
+.white {
+	color: #fff;
+}
+.large {
+	font-size: 45px
+}
+.abox {
+	padding: 0 20px 0 20px;
+}
